@@ -58,6 +58,7 @@ public class App {
             System.out.println("Não há candidatos aprovados");
         }
 
+        
         sc.close();
     }
 }
