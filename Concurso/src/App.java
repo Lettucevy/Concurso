@@ -54,11 +54,14 @@ public class App {
             double somaMediasAprovados = aprovados.stream().mapToDouble(Pessoa::getMedia).sum();
             double mediaAprovados = somaMediasAprovados / aprovados.size();
             System.out.printf("Nota média dos aprovados: %.2f%n", mediaAprovados);
+
+
+            
         } else {
             System.out.println("Não há candidatos aprovados");
         }
 
-        
+
         sc.close();
     }
 }
